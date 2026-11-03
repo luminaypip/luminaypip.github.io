@@ -1,0 +1,35 @@
+:root {
+  --fondo: #f4fbff;
+  --texto: #1f2d4d;
+  --suave: #5a6a8a;
+  --azul: #2f7fd6;
+  --amarillo: #ffd640;
+  --tarjeta: #ffffff;
+  --borde: #d8e8f5;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font: 17px/1.6 "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+header { text-align: center; padding: 28px 16px 8px; }
+header img.logo { width: 120px; height: 120px; border-radius: 50%; }
+header h1 { margin: 10px 0 0; font-size: 1.9rem; }
+nav { margin: 12px 0 0; }
+nav a { color: var(--azul); margin: 0 10px; font-weight: 600; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+.banner { display: block; width: 100%; max-width: 960px; margin: 20px auto 0; border-radius: 16px; }
+main { max-width: 760px; margin: 0 auto; padding: 8px 16px 48px; }
+section {
+  background: var(--tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: 16px;
+  padding: 8px 24px 16px;
+  margin: 20px 0;
+}
+h2 { font-size: 1.3rem; margin-top: 18px; }
+a { color: var(--azul); }
+.idioma { color: var(--suave); font-size: 0.95rem; }
+footer { text-align: center; color: var(--suave); font-size: 0.9rem; padding: 0 16px 32px; }

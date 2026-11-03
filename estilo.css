@@ -33,3 +33,4 @@ h2 { font-size: 1.3rem; margin-top: 18px; }
 a { color: var(--azul); }
 .idioma { color: var(--suave); font-size: 0.95rem; }
 footer { text-align: center; color: var(--suave); font-size: 0.9rem; padding: 0 16px 32px; }
+.aviso-yt { background: #fff4f4; border-left: 4px solid #e62117; padding: 10px 14px; border-radius: 8px; }
